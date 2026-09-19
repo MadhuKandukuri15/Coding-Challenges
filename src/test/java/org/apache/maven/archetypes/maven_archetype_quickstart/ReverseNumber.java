@@ -8,9 +8,8 @@ public class ReverseNumber {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
-		int num =sc.nextInt();
-		
-		
+		System.out.println("enter number : ");
+		int num = sc.nextInt();
 
 	}
 
