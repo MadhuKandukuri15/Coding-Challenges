@@ -22,22 +22,18 @@ public class LastNonRepeatingCharacter {
 
 			}
 		}
-		boolean b = false;
-		char s = ' ';
+		char lastNonRepeatingCharacter = ' ';
 		for (Entry<Character, Integer> e : lh.entrySet()) {
 
 			if (e.getValue() == 1) {
-				b = true;
-				s = e.getKey();
-			} else {
-				b = false;
+				lastNonRepeatingCharacter = e.getKey();
+
 			}
 
 		}
-		if (b) {
-			System.out.println("last non repeating character : " + s);
-		}
-		else {
+		if (lastNonRepeatingCharacter != ' ') {
+			System.out.println("Last non repeating character : " + lastNonRepeatingCharacter);
+		} else {
 			System.out.println("There is no non repeating character");
 		}
 
