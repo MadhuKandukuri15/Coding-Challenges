@@ -25,7 +25,7 @@ public class SecondSmallestNumberInString {
 		// using ascii values
 
 		for (int i = 0; i < s.length(); i++) {
-			if (s.charAt(i) >= 47 && s.charAt(i) <= 56) {
+			if (s.charAt(i) >= 48 && s.charAt(i) <= 57) {
 				num = num + s.charAt(i);
 			}
 		}
